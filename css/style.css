@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.new {
+  height: 100vh;
+  width: 100vw;
+  background-color: grey; }
+
+.parent {
+  width: 80vw;
+  margin: 0 auto;
+  height: 100vh;
+  border: 2px solid red;
+  position: relative;
+  overflow: hidden;
+  background-color: aquamarine; }
+
+.mid {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 43.5%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(#20cef1, blue);
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold; }
+
+.line {
+  width: 55px;
+  border: 2px dashed grey;
+  margin: 15px;
+  position: absolute;
+  opacity: 0; }
+
+.line1 {
+  transform: rotate(90deg) !important;
+  top: 37.3%;
+  left: 46.5%; }
+
+.line2 {
+  top: 47.8%;
+  left: 40.3%; }
+
+.line3 {
+  top: 47.8%;
+  left: 52.8%; }
+
+.line4 {
+  transform: rotate(90deg) !important;
+  top: 58.1%;
+  left: 46.5%; }
+
+.image {
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  transform: translate(-50%, -50%); }
+
+.img {
+  width: 100%;
+  height: auto; }
+
+.image1 {
+  top: -15% px;
+  left: 37.5%;
+  animation-name: anim1;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes anim1 {
+  0% {
+    top: -15%;
+    left: 37.5%; }
+  100% {
+    top: 115px;
+    left: 37.5%; } }
+.image2 {
+  top: 50%;
+  left: -180px;
+  animation-name: anim2;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes anim2 {
+  0% {
+    top: 50%;
+    left: -180px; }
+  100% {
+    top: 40%;
+    left: 210px; } }
+.image3 {
+  top: 50%;
+  right: -470px;
+  animation-name: anim3;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes anim3 {
+  0% {
+    top: 50%;
+    right: -470px; }
+  100% {
+    top: 40%;
+    right: 210px; } }
+.image4 {
+  animation-name: anim4;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes anim4 {
+  0% {
+    bottom: -240px;
+    left: 50%; }
+  100% {
+    bottom: 115px;
+    left: 37.5%; } }
+
+/*# sourceMappingURL=style.css.map */
